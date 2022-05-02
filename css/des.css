@@ -1,0 +1,20 @@
+header a {
+   font-size: 30px;
+   color: teal;
+}
+
+#dislikes a{
+    font-weight: bold;
+    color: red; 
+
+}
+
+button:hover{
+    background-color: lightsalmon;
+    color: cadetblue;
+}
+
+button:active{
+    background-color: goldenrod;
+}
+

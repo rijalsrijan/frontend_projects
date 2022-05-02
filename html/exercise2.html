@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form action="/excersise.html">
+        <p>
+            <label for="firstname">FirstName:</label>
+            <input type="text" id="firstname" placeholder="firstname" required>
+
+            <label for="lastname">LastName:</label>
+            <input type="text" id="lastname" placeholder="lastname" required>
+
+        </p>
+
+        <p>
+        <h2>Select Race:</h2>
+        <label for="5k">5 km</label>
+        <input type="radio" id="5k" value="5km" name="race">
+        <label for="halfm">half marathon</label>
+        <input type="radio" id="halfm" value="halfmarathon" name="race">
+        <label for="fullm">full marathon</label>
+        <input type="radio" id="fullm" value="fullmartathon" name="race">
+        </p>
+
+        <p>
+        <h2>Age group:</h2>
+        <label for="number">Select age:</label>
+        <select name="age group" id="number">
+            <option value="kids">16-18</option>
+            <option value="adults">19-25</option>
+            <option value="oldies">26+</option>
+        </select>
+
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" minlength="7" maxlength="15"
+                required>
+        </p>
+        <p>
+            <button>Register</button>
+        </p>
+
+    </form>
+
+</body>
+
+</html>

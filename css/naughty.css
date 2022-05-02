@@ -1,0 +1,23 @@
+.one{
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.two{
+    width:200px;
+    height: 250px;
+    background-color: blue;
+    border-width: 3px;
+    border-color: brown;
+    border-style:dotted ;
+
+}
+.three{
+    width: 200px;
+    height:250px;
+    background-color: coral;
+    border: 3px dotted aqua;
+}
