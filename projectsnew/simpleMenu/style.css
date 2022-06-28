@@ -1,0 +1,12 @@
+.breakfast1{
+    border: 2px solid;
+    border-radius: 0.5em;
+    border-color: goldenrod;
+    height: 200px;
+    width: 300px;
+}
+.line{
+    border:0.5px solid;
+    width: 150px;
+}
+    

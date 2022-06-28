@@ -1,29 +1,30 @@
-body{
+body {
     display: flex;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
-   background-color: #151b29;
+    background-color: #151b29;
     height: 100vh;
 }
-button{
+
+button {
     background: none;
     color: #ffa260;
     border: 2px solid;
-    padding:1em 2em;
+    padding: 1em 2em;
+    margin: 1em;
     font-size: 1em;
-     transition: all 0.18s 0.1s;
-    
-    
+    transition: all 0.18s 0.1s;
+
+
 }
-button:hover
-{
+
+button:hover {
     border-color: #f1ff5c;
-    color:#f1ff5c;
+    color: #f1ff5c;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translate(0,-15px);
+    transform: translate(0, -15px);
     cursor: pointer;
-   
-  
-    
+
+
+
 }
-    

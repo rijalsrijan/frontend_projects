@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(207, 227, 221);
+    
+}
+
+.qr-pic {
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.info{
+    text-align: center;
+    display: flex;
+    
+    flex-direction: row-reverse;
+}
