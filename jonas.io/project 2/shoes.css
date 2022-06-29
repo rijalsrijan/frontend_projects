@@ -13,12 +13,13 @@ body {
 
 .more-info:link,
 .more-info:visited {
-  color: lightgreen;
+  color: darkkhaki;
 }
 
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+  background-color: darkcyan;
 }
 
 .main-head {
