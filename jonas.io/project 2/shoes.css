@@ -39,13 +39,13 @@ body {
 .butt-on {
   border: none;
   background-color: black;
-  color:#fff;
-  font-size:20px;
+  color: #fff;
+  font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.butt-on:hover{
-  color:#000;
+.butt-on:hover {
+  color: #000;
   background-color: white;
 }
